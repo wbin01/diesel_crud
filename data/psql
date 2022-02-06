@@ -1,0 +1,8 @@
+Enter:
+    sudo -u postgres psql postgres
+
+Quit:
+    \q
+
+Create password:
+    \password postgres
