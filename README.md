@@ -1,5 +1,8 @@
-# Diesel CRUD
+## Diesel CRUD
+
 Testing CRUD with an ORM and Query Builder for Rust.
+
+https://github.com/w-a-gomes/diesel_crud
 
 ```rust
 // Function signatures:
