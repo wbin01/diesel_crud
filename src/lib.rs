@@ -60,7 +60,7 @@ pub fn read_posts(pattern: Option<&str>) -> Vec<Post> {
 
     if let Some(pattern) = pattern {
         posts.filter(title.like(pattern))
-            // .limit(limit)
+            // .limit(5)
             .load::<Post>(&connection)
             .expect("Error loading posts")
     } else {
