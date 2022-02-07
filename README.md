@@ -4,9 +4,8 @@ Testing CRUD with an ORM and Query Builder for Rust
 
 https://github.com/w-a-gomes/diesel_crud
 
+Function signatures:
 ```rust
-// Function signatures:
-
 // Create
 pub fn create_the_draft(title: &str, body: &str) -> Post;
 pub fn create_post_publication(post: &Post);
